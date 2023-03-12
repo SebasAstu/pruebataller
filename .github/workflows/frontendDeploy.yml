@@ -39,7 +39,7 @@ jobs:
         run: npm test -- --watchAll=false  --passWithNoTests
 
       - name: Run E2E Tests
-        run: cypress-run
+        run: npm run cypress-run
  
   
   deploy-staging:
