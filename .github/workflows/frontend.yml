@@ -33,6 +33,7 @@ jobs:
         run: npm test -- --watchAll=false  --passWithNoTests
       
       - name: Run E2E Tests
-        run: npm run cypress-run
+        run: cypress-io/github-action@v4
         with:
           start: npm start
+          wait-on: http://ncv-stagging.web.app/
