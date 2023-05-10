@@ -55,5 +55,6 @@ it('Deberia mostrar un mensaje de error al intentar ingresar con el email incorr
     .should('contain', 'Usuario y/o contraseña no validos')
     .and('be.visible')
  }) 
+ //solo es prueba
 
 });
